@@ -3,7 +3,8 @@ def method1
 end
 
 def method2
-  puts invalid_variable
+  puts invalid_variable # This will raise an exception because invalid_variable is not defined
 end
 
 method1
+
